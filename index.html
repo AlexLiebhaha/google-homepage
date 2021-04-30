@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<style>
+h1 {
+    text-align: center;
+    color: pink;
+    background: purple;
+}
+#logo {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+}
+.buttons-position{
+    display: flex;
+    position: relative;
+    top: -60px;
+}
+.buttons-center{
+    justify-content: center;
+    padding: 10%
+}
+/* Still need to add transparent background and hover to each button */
+button.search-button {
+    margin-right: 20px;
+}
+/* Still need to add curved corners and magnifying glass */
+.search-bar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    width: 500px;
+}
+.Google-Fi {
+    position: relative;
+    text-align: center;
+    top: -130px;
+    font-size: 12px;
+    color: navy;
+}
+.Google-Fi:hover {
+    text-decoration: underline;
+}
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+</head>
+<header>
+    <div>About</div>
+    <div>Store</div>
+    <div>Gmail</div>
+    <div>Images</div>
+    <div>Google Apps Menu</div>
+    <div>User Menu</div>
+</header>
+<body>
+    <img id="logo" src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg">
+    <div><input class="search-bar" type="text" placeholder="Your answer awaits..."></div>
+    <div class="buttons-position buttons-center">
+        <button type="submit" class="search-button">Google Search</button>
+        <button type="submit">I'm Feeling Lucky</button>
+    </div>
+    <div class="Google-Fi">Meet the new Google Fi unlimited phone plan</div>
+</body>
+<footer>
+    <div>"Carbon Symbol" Carbon Neutral Since 2007</div>
+    <div>Advertising</div>
+    <div>Business</div>
+    <div> How Search works</div>
+    <div>Privacy</div>
+    <div> Terms</div>
+    <div>Settings</div>
+</footer>
+</html>
