@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: .8em;
+}
+.menu-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+ul > a, ul > img {
+    padding: 0 11px;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+    border-radius: 40%;
+    padding: 9px;
+    background-color: rgb(243, 240, 240);
+}
+.sign-in{
+    background-color:#1a73e8;
+    box-shadow: 0 0 10px 0 gainsboro;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 9px 23px;
+    color: gainsboro;
+}
+
+button:hover {
+    filter: brightness(1.10)
+}
+
+section > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+    width: 30%;
+    padding-bottom: 40px;
+}
+    
+
+.my-input-container {
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+.my-button-container {
+    text-align: center;
+}
+
+#searchbar {
+    width: 500px;
+    border-radius: 20px;
+    height: 34px;
+    font-size: 16px;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    background-color: transparent;
+    
+  
+}
+.subtext {
+    color: #1a0dab;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.subtext:hover {
+    text-decoration: underline;
+}
+.carbon {
+    text-align: center;
+    color: grey;
+    margin-top: 500px;
+    font-size: 14px;
+}
+
+#carbon-icon {
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -40px;
+    background-color: grey;
+}
+.lowest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 82%;
+    margin: auto;
+    
+}
+footer {
+    background-color: rgb(240, 238, 238);
+    height: 80px;
+}
